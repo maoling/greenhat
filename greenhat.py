@@ -12,7 +12,8 @@ import os
 def get_date_string(n, startdate):
 	d = startdate - timedelta(days=n)
 	rtn = d.strftime("%a %b %d %X %Y %z -0400")
-	return rtn
+	print("fuck__me___ rtn:"+rtn)
+        return rtn
 
 # main app
 def main(argv):
